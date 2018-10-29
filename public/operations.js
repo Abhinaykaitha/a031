@@ -6,18 +6,19 @@ function calculate(){
     if(oper === '+'){
        
     $("#result").val(parseInt(n1)+parseInt(n2));
-    
+    return parseInt(n1)+parseInt(n2);
         
     }
     if(oper === '-'){
        
         $("#result").val(parseInt(n1)-parseInt(n2));
-        
+        return parseInt(n1)-parseInt(n2);
             
         }
         if(oper === '*'){
        
            $("#result").val(parseInt(n1)*parseInt(n2));
+           return parseInt(n1)*parseInt(n2);
             
                 
             }
@@ -25,6 +26,6 @@ function calculate(){
        
                 $("#result").val(parseInt(n1)/parseInt(n2));
                 
-                    
+                return parseInt(n1)/parseInt(n2);
                 }
 }
