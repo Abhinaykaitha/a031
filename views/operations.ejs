@@ -1,0 +1,20 @@
+<% include header %>
+<body>
+	<h3>enter the first number        :  <input type="number" id="num1"/><br/><br></h2>
+
+
+	<h3>enter the second number: <input type="number" id="num2"/><br><br></h2>
+	<h3>Select the operator
+<select id="operators"></h2>
+<option value="+">+</option>
+<option value="-">-</option>
+<option value="*">*</option>
+<option value="/">/</option>
+</select>
+
+<button  onclick=calculate()>Calculate </button>
+	<h2>Result when the operation is applied is: <input type="text" id="result" /> </h2>
+	
+	<script src="operations.js"></script>
+	</body>
+	<% include footer %>
