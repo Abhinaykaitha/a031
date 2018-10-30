@@ -7,7 +7,7 @@ const app = express()  // make express app
 const port = process.env.PORT||8081
 
 // ADD THESE COMMENTS AND IMPLEMENTATION HERE
-// 1 set up the view engine
+// 1 set up the view engine1
 // 1 set up the view engine
 app.set("views", path.resolve(__dirname, "views")) // path to views
 app.set("view engine", "ejs") // specify our view
